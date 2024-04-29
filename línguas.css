@@ -4,19 +4,12 @@
 }
 body
 {
-
-    background-color: burlywood;
-
     background-color: wheat;
 
     font-family: Arial, Helvetica, sans-serif;
 }
 .cabeçalho
 {
-
-
-    color: sienna;
-
     color: sienna;
     display: flex;
     justify-content: space-around;
@@ -26,18 +19,12 @@ body
 }
 a
 {
-
-    color: black;
-
-    color: sienna;
-
-
-    color: sienna;
+    color: darkred;
     text-decoration: none;
 }
 a:hover
 {
-    background-color: brown;
+    background-color: sienna;
     border-radius: 6px;
 }
 .destaque
@@ -48,18 +35,18 @@ a:hover
 }
 h1
 {
-    color: brown;
+    font-size: 32px;
+    color: maroon;
 }
 main
 {
     width: 500px;
     height: 500px;
-    background-color: peru;
     margin: 30px;
     padding: 30px 50px;
     box-sizing: border-box;
     margin: 30px;
-    padding: 30px 50px;
+    padding: 40px;
     box-sizing: border-box;
     border: solid maroon ;
 
@@ -72,11 +59,16 @@ header h1
 img
 {
     width: 400px;
-    height: 250px;
+    height: 200px;
 }
 .principal
 {
     margin: auto;
     display: flex;
     justify-content: center;
+}
+footer
+{
+    background-color: tan;
+    text-align: center;
 }

@@ -105,3 +105,8 @@ article
     display: flex;
     justify-content: space-around;
 }
+footer
+{
+    background-color: tan;
+    text-align: center;
+}
